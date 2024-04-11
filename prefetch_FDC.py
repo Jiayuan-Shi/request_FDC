@@ -9,7 +9,7 @@ workbook = xlwt.Workbook(encoding='utf-8')
 worksheet = workbook.add_sheet('nutrition')
 
 def req(pageNum):
-    api_key = "EnUueKJPEf4nbwogkZZ8bV1k0Ec7UW6fLNlBMjdc"
+    api_key = ""
     params = {
         'api_key': api_key,
         'dataType': ['SR Legacy'],  # Foundation, Branded, Survey (FNDDS), SR Legacy
